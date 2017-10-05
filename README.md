@@ -12,3 +12,7 @@ cd ft2stdio && mkdir build && cd build
 cmake ..
 make
 ```
+
+## Windows drivers
+By default windows will install the FTDI drivers, but the WinUSB drivers are necessary for libusb,
+the driver used can be changed using [zadig](http://zadig.akeo.ie/). 
